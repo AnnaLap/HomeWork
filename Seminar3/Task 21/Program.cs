@@ -6,9 +6,9 @@ A (7,-5, 0); B (1,-1,9) -> 11.53 */
 double Distance3D (int coordX1, int coordY1, int coordZ1, 
                    int coordX2, int coordY2, int coordZ2)
 {
-double res = 0;
-res = Math.Sqrt(Math.Pow(coordX1 - coordX2, 2) + Math.Pow(coordY1 - coordY2, 2) + Math.Pow(coordZ1 - coordZ2, 2));
-return Math.Round(res, 2);
+    double res = 0;
+    res = Math.Sqrt(Math.Pow(coordX1 - coordX2, 2) + Math.Pow(coordY1 - coordY2, 2) + Math.Pow(coordZ1 - coordZ2, 2));
+    return Math.Round(res, 2);
 }
 
 Console.Write("Enter a coordinate x for the first point A: ");

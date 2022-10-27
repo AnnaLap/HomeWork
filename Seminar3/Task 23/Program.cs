@@ -7,11 +7,11 @@
 void CubeTable (int n)
 {
      double res = 0;
-for (int i = 1; i <= n; i++)
-{
-    res = Math.Pow(i,3);
-    Console.WriteLine($"{res}");
-}
+    for (int i = 1; i <= n; i++)
+    {
+        res = Math.Pow(i,3);
+        Console.WriteLine($"{res}");
+    }
 }
 Console.Write("Enter number N: ");
 int N = Convert.ToInt32(Console.ReadLine());
